@@ -1,0 +1,57 @@
+/* about */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about img {
+  width: 35rem;
+  -webkit-filter: grayscale(100%);
+  transition: 0.6s;
+}
+
+.about img:hover {
+  -webkit-filter: grayscale(0);
+}
+
+.about p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.skills {
+  margin-top: 8rem;
+}
+.skills h3 {
+  font-size: 3rem;
+}
+.skills img {
+  max-height: 9rem;
+  padding: 1rem;
+  transition: all 0.6s;
+  -webkit-filter: grayscale(100%);
+}
+.skills img:hover {
+  transform: translateY(-1rem);
+  -webkit-filter: grayscale(0);
+}
+
+@media only screen and (max-width: 900px) {
+  .about {
+    flex-direction: column;
+  }
+  .about img {
+    margin: 0 auto;
+  }
+  p {
+    margin-bottom: 2rem;
+  }
+}
+
+/* contact */
+.contact li,
+.contact span {
+  font-size: 2rem;
+  padding: 1rem;
+}
