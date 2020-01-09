@@ -117,7 +117,11 @@
   font-size: 1.3rem;
 }
 
-.work .fab,
-.work .fas {
+.work a {
   color: black;
+  transition: 0.5s;
+}
+
+.work a:hover {
+  color: red;
 }
