@@ -55,3 +55,66 @@
   font-size: 2rem;
   padding: 1rem;
 }
+
+/* work */
+.work p {
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+.projects {
+  display: grid;
+  width: 70%;
+  margin: auto;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.projects h1 {
+  font-size: 3.5rem;
+}
+.projects .item {
+  border-radius: 1rem;
+  position: relative;
+}
+.projects .item:first-child {
+  margin-top: 1rem;
+}
+
+.projects .border {
+  width: 50%;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+}
+
+.projects p {
+  font-size: 1.7rem;
+}
+
+.projects img {
+  width: 70%;
+  border: 3px solid #fff;
+  margin-top: 0.5rem;
+  transition: all 0.4s;
+  border-radius: 0.5 rem;
+  -webkit-filter: grayscale(100%);
+}
+.projects img:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 2px 9px 13px 1px rgba(0, 0, 0, 0.75);
+  -webkit-filter: grayscale(0);
+}
+
+.btn-row {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  font-size: 1.3rem;
+}
+.btn:hover {
+}
