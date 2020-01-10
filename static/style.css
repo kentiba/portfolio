@@ -16,7 +16,7 @@
 }
 
 .about p {
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: center;
 }
 
@@ -44,8 +44,10 @@
   .about img {
     margin: 0 auto;
   }
-  p {
-    margin-bottom: 2rem;
+  .about p {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
   }
 }
 
